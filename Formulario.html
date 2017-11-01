@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Formulario</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/estilos_form.css" />
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>  
+<script src="js/comunes.js" type="text/javascript"></script> 
+<script src="js/formulario.js" type="text/javascript"></script>
+</head>
+ 
+  <body>
+
+      <header>
+         <h1>Formulario Entidad</h1>       
+      </header>
+
+      <section>
+          <form name="formEntidad">
+             <div class="grupo-form50">              
+                <label for="dni">DNI/CIF</label>
+                <input type="text" class="inputtxt" id="dni" name="dni" size="14" maxlength="9">
+            </div> 
+            <div class="grupo-form50">              
+                <label for="idEntidad">Código</label>
+                <input type="text" class="inputtxt" id="idEntidad" name="idEntidad" size="5" maxlength="6" disabled="true">
+            </div> 
+            <div class="grupo-form">              
+                <label for="nombre">Nombre</label>
+                <input type="text" class="inputtxt" id="nombre" name="nombre" size="45" maxlength="40">
+                <input type="button" value="Buscar" id="buscarNombre">
+            </div>             
+            <div class="grupo-form">              
+                <label for="direccion">Dirección</label>
+                <input type="text" class="inputtxt" id="direccion" name="direccion" size="55" maxlength="50">
+            </div>
+            <div class="grupo-form25">              
+                <label for="cpostal">Código Postal</label>
+                <input type="text" class="inputtxt" id="cpostals" name="Postal" size="7" maxlength="5">
+            </div>  
+            <div class="grupo-form">              
+                <label for="poblacion">Población</label>
+                <input type="text" class="inputtxt" id="poblacion" name="poblacion" size="40" maxlength="35">
+            </div>
+            <div class="grupo-form25">              
+                <label for="telefono">Teléfono</label>
+                <input type="text" class="inputtxt" id="telefonon" name="telefono" size="12" maxlength="10">
+            </div>
+            <div class="grupo-form25">              
+                <label for="movil">Móvil</label>
+                <input type="text" class="inputtxt" id="movil" name="movil" size="12" maxlength="10">
+            </div>
+            <div class="grupo-form50">              
+                <label for="email">Email</label>
+                <input type="text" class="inputtxt" id="email" name="email" size="55" maxlength="50">
+            </div>
+
+
+            <p><input type="button" value="Alta" id="alta">
+               <input type="button" value="Baja" id="baja">
+               <input type="button" value="Modificar" id="modificar">
+               <input type="reset" value="Limpiar Formulario" id="limpiar">
+              <input type="button" value="Listados" id="listados">
+               <input type="button" value="Salir" id="salir">             
+            </p>
+
+          </form>
+
+          <div id="listado" title="Busqueda por nombre" style="display:;">  
+              <div class="grupo-form">              
+                <label for="nombre2">Nombre</label>
+                <input type="text" class="inputtxt" id="nombre2" name="nombre2" size="45" maxlength="40">
+                <input type="button" value="Buscar" id="buscarNombre2">
+              </div>
+
+                <div>                   
+                    <button type="button" class="btn btn-primary" id="Dvolver">Volver</button>
+                    <button type="button" class="btn btn-primary" id="Dseleccionar">Seleccionar</button>
+                    <button type="button" class="btn btn-primary" id="Dcontinuar">Continuar con el Alta</button>                     
+                </div>
+            </div>
+
+
+
+      </section>
+      <aside>
+        
+      </aside>
+      <footer>
+          <h1>Pie de Formulario</h1>
+      </footer>
+  </body>
+</html>

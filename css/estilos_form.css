@@ -1,0 +1,40 @@
+
+
+
+form{
+	font : 14px verdana;
+}
+
+input{
+	border-radius: 0.4em;
+	font: 16px verdana;	
+	padding : 10px;
+}
+
+label{
+	font : 16px verdana;
+	font-weight: bold;
+	color : blue;
+	padding : 1em;
+}
+
+.grupo-form{
+	padding: 10px 0;
+}
+
+.grupo-form25{
+	width: 25%;
+	float: left;
+	padding: 10px 0;
+}
+
+.grupo-form50{
+	width: 50%;
+	float: left;
+	padding: 10px 0;
+}
+
+.inputtxt{
+	text-transform: uppercase;
+}
+
